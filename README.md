@@ -7,6 +7,7 @@ Prerequisites
 2. Add Python 3.x your PATH environment variable
 3. If you do not have it already, get pip (NOTE: Most recent Python distributions come with pip)
 4. AWS credential files, placed at the right location in your machine
+5. Raspberry Pi device registered with remote.it account and is connected 
 
 Setup
 1. Clone the repo
