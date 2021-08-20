@@ -1,0 +1,12 @@
+[Unit]
+Description=Jitsi Listener System Service
+
+[Service]
+WorkingDirectory=/usr/local/lib/jitsi_listener/
+EnvironmentFile=/usr/local/etc/jitsi_listener/jitsi_listener.env
+ExecStart=/usr/local/lib/jitsi_listener/venv/bin/python3 /usr/local/lib/jitsi_listener/jitsi_listener.py
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
